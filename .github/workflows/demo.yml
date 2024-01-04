@@ -24,6 +24,7 @@ jobs:
         run: |
           node -v
           npm -v
+          echo 'hello github actions'
   test2:
     runs-on: ubuntu-latest
     steps:
